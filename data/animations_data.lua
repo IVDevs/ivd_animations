@@ -1,0 +1,1322 @@
+Config.AnimationDicts = {
+	{ dict = "amb@arcade", label = "Arcade", clips = {
+		{ name = "play_videogame", label = "Play Videogame" },
+		{ name = "play_pinball", label = "Play Pinball" },
+		{ name = "use_vendmac", label = "Use Vendmac" },
+	} },
+	{ dict = "amb@argue", label = "Argue", clips = {
+		{ name = "street_argue_f_b", label = "Street Argue F B" },
+		{ name = "street_argue_f_a", label = "Street Argue F A" },
+		{ name = "crazy_rant_03", label = "Crazy Rant 03" },
+		{ name = "crazy_rant_02", label = "Crazy Rant 02" },
+		{ name = "crazy_rant_01", label = "Crazy Rant 01" },
+		{ name = "angryman", label = "Angryman" },
+		{ name = "argue_a", label = "Argue A" },
+		{ name = "argue_b", label = "Argue B" },
+	} },
+	{ dict = "amb@atm", label = "Atm", clips = {
+		{ name = "m_putwalletaway_pocket", label = "M Putwalletaway Pocket" },
+		{ name = "m_getoutwallet_pocket", label = "M Getoutwallet Pocket" },
+		{ name = "m_putwalletaway_chest", label = "M Putwalletaway Chest" },
+		{ name = "m_getoutwallet_chest", label = "M Getoutwallet Chest" },
+		{ name = "f_enternumbers", label = "F Enternumbers" },
+		{ name = "f_putpurseaway", label = "F Putpurseaway" },
+		{ name = "m_enternumbers", label = "M Enternumbers" },
+		{ name = "f_getoutpurse", label = "F Getoutpurse" },
+		{ name = "f_insertcard", label = "F Insertcard" },
+		{ name = "m_insertcard", label = "M Insertcard" },
+		{ name = "f_takecash", label = "F Takecash" },
+		{ name = "m_takecash", label = "M Takecash" },
+		{ name = "f_wait", label = "F Wait" },
+		{ name = "m_wait", label = "M Wait" },
+	} },
+	{ dict = "amb@bag_a_create", label = "Bag A Create", clips = {
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@bag_a_hold", label = "Bag A Hold", clips = {
+		{ name = "walk_bag", label = "Walk Bag" },
+	} },
+	{ dict = "amb@bag_a_idles", label = "Bag A Idles", clips = {
+		{ name = "walk_bag", label = "Walk Bag" },
+	} },
+	{ dict = "amb@bag_b_create", label = "Bag B Create", clips = {
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@bag_b_hold", label = "Bag B Hold", clips = {
+		{ name = "walk_bag", label = "Walk Bag" },
+	} },
+	{ dict = "amb@bag_b_idles", label = "Bag B Idles", clips = {
+		{ name = "walk_bag", label = "Walk Bag" },
+	} },
+	{ dict = "amb@bar", label = "Bar", clips = {
+		{ name = "wipe_counter", label = "Wipe Counter" },
+		{ name = "clean_glass", label = "Clean Glass" },
+	} },
+	{ dict = "amb@baseball", label = "Baseball", clips = {
+		{ name = "swing_idle", label = "Swing Idle" },
+		{ name = "swing", label = "Swing" },
+	} },
+	{ dict = "amb@beg_sitting", label = "Beg Sitting", clips = {
+		{ name = "beggar_sit", label = "Beggar Sit" },
+		{ name = "beggar_beg", label = "Beggar Beg" },
+		{ name = "give_obj", label = "Give Obj" },
+	} },
+	{ dict = "amb@beg_standing", label = "Beg Standing", clips = {
+		{ name = "walk_hassle_money", label = "Walk Hassle Money" },
+		{ name = "crazy_rant_01", label = "Crazy Rant 01" },
+		{ name = "take_obj", label = "Take Obj" },
+		{ name = "give_obj", label = "Give Obj" },
+		{ name = "argue_b", label = "Argue B" },
+	} },
+	{ dict = "amb@bnch_bum_idl", label = "Bnch Bum Idl", clips = {
+		{ name = "scratch", label = "Scratch" },
+		{ name = "groan", label = "Groan" },
+	} },
+	{ dict = "amb@bnch_dnk_idl", label = "Bnch Dnk Idl", clips = {
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@bnch_dnk_idl_f", label = "Bnch Dnk Idl F", clips = {
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@bnch_eat_idl", label = "Bnch Eat Idl", clips = {
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@bnch_eat_idl_f", label = "Bnch Eat Idl F", clips = {
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@bnch_read_idl", label = "Bnch Read Idl", clips = {
+		{ name = "turn_page", label = "Turn Page" },
+	} },
+	{ dict = "amb@bnch_read_idl_f", label = "Bnch Read Idl F", clips = {
+		{ name = "turn_page", label = "Turn Page" },
+	} },
+	{ dict = "amb@bnch_smk_idl", label = "Bnch Smk Idl", clips = {
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@bnch_smk_idl_f", label = "Bnch Smk Idl F", clips = {
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@bnch_std_idl", label = "Bnch Std Idl", clips = {
+		{ name = "sit_idle_d", label = "Sit Idle D" },
+		{ name = "sit_idle_c", label = "Sit Idle C" },
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@bnch_std_idl_f", label = "Bnch Std Idl F", clips = {
+		{ name = "sit_idle_d", label = "Sit Idle D" },
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_c", label = "Sit Idle C" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@book", label = "Book", clips = {
+		{ name = "walk_read", label = "Walk Read" },
+	} },
+	{ dict = "amb@boot_idles", label = "Boot Idles", clips = {
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@bottle_create", label = "Bottle Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@bottle_destroy", label = "Bottle Destroy", clips = {
+		{ name = "destroy_stand", label = "Destroy Stand" },
+		{ name = "destroy_walk", label = "Destroy Walk" },
+	} },
+	{ dict = "amb@bottle_hold", label = "Bottle Hold", clips = {
+		{ name = "hold_stand", label = "Hold Stand" },
+		{ name = "hold_walk", label = "Hold Walk" },
+	} },
+	{ dict = "amb@bottle_idle", label = "Bottle Idle", clips = {
+		{ name = "drink_stand", label = "Drink Stand" },
+		{ name = "drink_walk", label = "Drink Walk" },
+	} },
+	{ dict = "amb@bouncer_idles_a", label = "Bouncer Idles A", clips = {
+		{ name = "crack_knuckles", label = "Crack Knuckles" },
+		{ name = "lookaround_b", label = "Lookaround B" },
+		{ name = "lookaround_c", label = "Lookaround C" },
+		{ name = "lookaround_d", label = "Lookaround D" },
+		{ name = "shake_legs", label = "Shake Legs" },
+	} },
+	{ dict = "amb@bouncer_idles_b", label = "Bouncer Idles B", clips = {
+		{ name = "lookaround_a", label = "Lookaround A" },
+	} },
+	{ dict = "amb@brazier", label = "Brazier", clips = {
+		{ name = "brazierb", label = "Brazierb" },
+		{ name = "brazierc", label = "Brazierc" },
+		{ name = "braziera", label = "Braziera" },
+	} },
+	{ dict = "amb@bridgecops", label = "Bridgecops", clips = {
+		{ name = "car_chat_outside_2", label = "Car Chat Outside 2" },
+		{ name = "car_chat_outside", label = "Car Chat Outside" },
+		{ name = "close_boot", label = "Close Boot" },
+		{ name = "open_boot", label = "Open Boot" },
+	} },
+	{ dict = "amb@broken_d_idles_a", label = "Broken D Idles A", clips = {
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@broken_d_idles_b", label = "Broken D Idles B", clips = {
+		{ name = "idle_c", label = "Idle C" },
+	} },
+	{ dict = "amb@bum_a", label = "Bum A", clips = {
+		{ name = "stand_rant_b", label = "Stand Rant B" },
+		{ name = "stand_rant_a", label = "Stand Rant A" },
+	} },
+	{ dict = "amb@bum_b", label = "Bum B", clips = {
+		{ name = "walkcycle_drunk_a", label = "Walkcycle Drunk A" },
+	} },
+	{ dict = "amb@bum_c", label = "Bum C", clips = {
+		{ name = "walkcycle_drunk_b", label = "Walkcycle Drunk B" },
+	} },
+	{ dict = "amb@burger_create", label = "Burger Create", clips = {
+		{ name = "create_walk", label = "Create Walk" },
+	} },
+	{ dict = "amb@burger_destroy", label = "Burger Destroy", clips = {
+		{ name = "destroy_stand", label = "Destroy Stand" },
+		{ name = "destroy_walk", label = "Destroy Walk" },
+	} },
+	{ dict = "amb@burger_hold", label = "Burger Hold", clips = {
+		{ name = "hold_stand", label = "Hold Stand" },
+		{ name = "hold_walk", label = "Hold Walk" },
+	} },
+	{ dict = "amb@burger_idle", label = "Burger Idle", clips = {
+		{ name = "eat_stand", label = "Eat Stand" },
+		{ name = "eat_walk", label = "Eat Walk" },
+	} },
+	{ dict = "amb@burgercart", label = "Burgercart", clips = {
+		{ name = "stand_eat_fastfood_2", label = "Stand Eat Fastfood 2" },
+		{ name = "sell_burger_plyr", label = "Sell Burger Plyr" },
+		{ name = "eat_burger_plyr", label = "Eat Burger Plyr" },
+		{ name = "buy_burger_plyr", label = "Buy Burger Plyr" },
+		{ name = "hotdog_vend", label = "Hotdog Vend" },
+		{ name = "sell_burger", label = "Sell Burger" },
+		{ name = "buy_burger", label = "Buy Burger" },
+		{ name = "hotdog_buy", label = "Hotdog Buy" },
+	} },
+	{ dict = "amb@busker", label = "Busker", clips = {
+		{ name = "throw_right", label = "Throw Right" },
+		{ name = "sax_loop_b", label = "Sax Loop B" },
+		{ name = "sax_loop_a", label = "Sax Loop A" },
+	} },
+	{ dict = "amb@cafe_eat_idles", label = "Cafe Eat Idles", clips = {
+		{ name = "sit_eat", label = "Sit Eat" },
+	} },
+	{ dict = "amb@cafe_empty_idl", label = "Cafe Empty Idl", clips = {
+		{ name = "sit_b", label = "Sit B" },
+		{ name = "sit_a", label = "Sit A" },
+	} },
+	{ dict = "amb@cafe_empty_idl_f", label = "Cafe Empty Idl F", clips = {
+		{ name = "sit_b", label = "Sit B" },
+		{ name = "sit_a", label = "Sit A" },
+	} },
+	{ dict = "amb@cafe_idles", label = "Cafe Idles", clips = {
+		{ name = "sit_drink_b", label = "Sit Drink B" },
+		{ name = "sit_drink", label = "Sit Drink" },
+	} },
+	{ dict = "amb@cafe_idles_f", label = "Cafe Idles F", clips = {
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@cafe_read_idl", label = "Cafe Read Idl", clips = {
+		{ name = "turn_page", label = "Turn Page" },
+	} },
+	{ dict = "amb@cafe_read_idl_f", label = "Cafe Read Idl F", clips = {
+		{ name = "turn_page", label = "Turn Page" },
+	} },
+	{ dict = "amb@cafe_smk_create", label = "Cafe Smk Create", clips = {
+		{ name = "smoke_create", label = "Smoke Create" },
+	} },
+	{ dict = "amb@cafe_smk_idl_f", label = "Cafe Smk Idl F", clips = {
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@cafe_smoke_idl_a", label = "Cafe Smoke Idl A", clips = {
+		{ name = "smoke_idle_a", label = "Smoke Idle A" },
+	} },
+	{ dict = "amb@cafe_smoke_idl_b", label = "Cafe Smoke Idl B", clips = {
+		{ name = "smoke_idle_c", label = "Smoke Idle C" },
+		{ name = "smoke_idle_b", label = "Smoke Idle B" },
+	} },
+	{ dict = "amb@car_cell_crte_ds", label = "Car Cell Crte Ds", clips = {
+		{ name = "create_cell", label = "Create Cell" },
+	} },
+	{ dict = "amb@car_cell_crte_ps", label = "Car Cell Crte Ps", clips = {
+		{ name = "create_cell", label = "Create Cell" },
+	} },
+	{ dict = "amb@car_cell_dsty_ds", label = "Car Cell Dsty Ds", clips = {
+		{ name = "cell_destroy", label = "Cell Destroy" },
+	} },
+	{ dict = "amb@car_cell_dsty_ps", label = "Car Cell Dsty Ps", clips = {
+		{ name = "cell_destroy", label = "Cell Destroy" },
+	} },
+	{ dict = "amb@car_cell_idle_ds", label = "Car Cell Idle Ds", clips = {
+		{ name = "idle01", label = "Idle01" },
+	} },
+	{ dict = "amb@car_cell_idle_ps", label = "Car Cell Idle Ps", clips = {
+		{ name = "idle01", label = "Idle01" },
+	} },
+	{ dict = "amb@car_low_ps_loops", label = "Car Low Ps Loops", clips = {
+		{ name = "alt_sit_ps_b", label = "Alt Sit Ps B" },
+		{ name = "alt_sit_ps_a", label = "Alt Sit Ps A" },
+	} },
+	{ dict = "amb@car_stash", label = "Car Stash", clips = {
+		{ name = "boot_withdraw", label = "Boot Withdraw" },
+		{ name = "open_boot", label = "Open Boot" },
+		{ name = "idle", label = "Idle" },
+	} },
+	{ dict = "amb@car_std_bk_seat", label = "Car Std Bk Seat", clips = {
+		{ name = "sing", label = "Sing" },
+	} },
+	{ dict = "amb@car_std_ds_a", label = "Car Std Ds A", clips = {
+		{ name = "change_radio", label = "Change Radio" },
+		{ name = "mirror_a", label = "Mirror A" },
+		{ name = "dance", label = "Dance" },
+	} },
+	{ dict = "amb@car_std_ds_b", label = "Car Std Ds B", clips = {
+		{ name = "scratch_b", label = "Scratch B" },
+		{ name = "scratch_a", label = "Scratch A" },
+		{ name = "mirror_c", label = "Mirror C" },
+		{ name = "mirror_b", label = "Mirror B" },
+	} },
+	{ dict = "amb@car_std_ds_c", label = "Car Std Ds C", clips = {
+		{ name = "scratch_c", label = "Scratch C" },
+		{ name = "sing_c", label = "Sing C" },
+		{ name = "sing_a", label = "Sing A" },
+	} },
+	{ dict = "amb@car_std_ds_d", label = "Car Std Ds D", clips = {
+		{ name = "sing_b", label = "Sing B" },
+	} },
+	{ dict = "amb@car_std_ds_trash", label = "Car Std Ds Trash", clips = {
+		{ name = "rubbish_a", label = "Rubbish A" },
+	} },
+	{ dict = "amb@car_std_f_id_ds", label = "Car Std F Id Ds", clips = {
+		{ name = "flee_idle_b", label = "Flee Idle B" },
+		{ name = "flee_idle_a", label = "Flee Idle A" },
+	} },
+	{ dict = "amb@car_std_f_id_ps", label = "Car Std F Id Ps", clips = {
+		{ name = "flee_b", label = "Flee B" },
+		{ name = "flee_a", label = "Flee A" },
+	} },
+	{ dict = "amb@car_std_ps_b", label = "Car Std Ps B", clips = {
+		{ name = "conversation", label = "Conversation" },
+		{ name = "scratch_a", label = "Scratch A" },
+	} },
+	{ dict = "amb@car_std_ps_c", label = "Car Std Ps C", clips = {
+		{ name = "lookaround_d", label = "Lookaround D" },
+		{ name = "pick_nose", label = "Pick Nose" },
+		{ name = "bored", label = "Bored" },
+	} },
+	{ dict = "amb@car_std_ps_d", label = "Car Std Ps D", clips = {
+		{ name = "stretch_a", label = "Stretch A" },
+		{ name = "sing_b", label = "Sing B" },
+	} },
+	{ dict = "amb@car_std_ps_e", label = "Car Std Ps E", clips = {
+		{ name = "sing", label = "Sing" },
+	} },
+	{ dict = "amb@car_std_ps_loops", label = "Car Std Ps Loops", clips = {
+		{ name = "alt_sit_ps_b", label = "Alt Sit Ps B" },
+		{ name = "alt_sit_ps_a", label = "Alt Sit Ps A" },
+	} },
+	{ dict = "amb@car_std_ps_trash", label = "Car Std Ps Trash", clips = {
+		{ name = "rubbish_a", label = "Rubbish A" },
+	} },
+	{ dict = "amb@carry_create", label = "Carry Create", clips = {
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@carry_hold", label = "Carry Hold", clips = {
+		{ name = "walk_hold", label = "Walk Hold" },
+	} },
+	{ dict = "amb@carry_idles", label = "Carry Idles", clips = {
+		{ name = "walk_idle_b", label = "Walk Idle B" },
+		{ name = "walk_idle_c", label = "Walk Idle C" },
+		{ name = "walk_idle_a", label = "Walk Idle A" },
+	} },
+	{ dict = "amb@cartcommon", label = "Cartcommon", clips = {
+		{ name = "take_hotdog", label = "Take Hotdog" },
+		{ name = "give_hotdog", label = "Give Hotdog" },
+		{ name = "take_obj", label = "Take Obj" },
+		{ name = "give_obj", label = "Give Obj" },
+	} },
+	{ dict = "amb@carwash", label = "Carwash", clips = {
+		{ name = "plyr_licenseoutro_ncar", label = "Plyr Licenseoutro Ncar" },
+		{ name = "plyr_licenseintro_ncar", label = "Plyr Licenseintro Ncar" },
+		{ name = "give_money", label = "Give Money" },
+		{ name = "carwash_c", label = "Carwash C" },
+	} },
+	{ dict = "amb@club_", label = "Club", clips = {
+		{ name = "clap", label = "Clap" },
+	} },
+	{ dict = "amb@coffee_hold", label = "Coffee Hold", clips = {
+		{ name = "hold_coffee", label = "Hold Coffee" },
+	} },
+	{ dict = "amb@coffee_idle_f", label = "Coffee Idle F", clips = {
+		{ name = "drink_a", label = "Drink A" },
+	} },
+	{ dict = "amb@coffee_idle_m", label = "Coffee Idle M", clips = {
+		{ name = "drink_a", label = "Drink A" },
+	} },
+	{ dict = "amb@cold", label = "Cold", clips = {
+		{ name = "stand_lookatsky", label = "Stand Lookatsky" },
+		{ name = "stand_blowhands", label = "Stand Blowhands" },
+		{ name = "pull_up_collar", label = "Pull Up Collar" },
+		{ name = "walk_blowhands", label = "Walk Blowhands" },
+		{ name = "stand_rubarms", label = "Stand Rubarms" },
+		{ name = "walk_rubarms", label = "Walk Rubarms" },
+	} },
+	{ dict = "amb@comedy", label = "Comedy", clips = {
+		{ name = "laugh_e", label = "Laugh E" },
+	} },
+	{ dict = "amb@dance_femidl_a", label = "Dance Femidl A", clips = {
+		{ name = "loop_a", label = "Loop A" },
+	} },
+	{ dict = "amb@dance_femidl_b", label = "Dance Femidl B", clips = {
+		{ name = "loop_b", label = "Loop B" },
+	} },
+	{ dict = "amb@dance_femidl_c", label = "Dance Femidl C", clips = {
+		{ name = "loop_c", label = "Loop C" },
+	} },
+	{ dict = "amb@dance_maleidl_a", label = "Dance Maleidl A", clips = {
+		{ name = "loop_a", label = "Loop A" },
+	} },
+	{ dict = "amb@dance_maleidl_b", label = "Dance Maleidl B", clips = {
+		{ name = "loop_b", label = "Loop B" },
+	} },
+	{ dict = "amb@dance_maleidl_c", label = "Dance Maleidl C", clips = {
+		{ name = "loop_c", label = "Loop C" },
+	} },
+	{ dict = "amb@dance_maleidl_d", label = "Dance Maleidl D", clips = {
+		{ name = "loop_d", label = "Loop D" },
+	} },
+	{ dict = "amb@dating", label = "Dating", clips = {
+		{ name = "niko_incar_partial", label = "Niko Incar Partial" },
+		{ name = "reach_open_door", label = "Reach Open Door" },
+		{ name = "partial_smoke", label = "Partial Smoke" },
+		{ name = "player_kiss", label = "Player Kiss" },
+		{ name = "car_kiss_ps", label = "Car Kiss Ps" },
+		{ name = "car_kiss_ds", label = "Car Kiss Ds" },
+		{ name = "pass_text", label = "Pass Text" },
+		{ name = "girl_hug", label = "Girl Hug" },
+		{ name = "flinch", label = "Flinch" },
+	} },
+	{ dict = "amb@default", label = "Default", clips = {
+		{ name = "cafe_f_empty_default", label = "Cafe F Empty Default" },
+	} },
+	{ dict = "amb@drill_create", label = "Drill Create", clips = {
+		{ name = "drill_create", label = "Drill Create" },
+	} },
+	{ dict = "amb@drill_idles", label = "Drill Idles", clips = {
+		{ name = "drill_stand_b", label = "Drill Stand B" },
+		{ name = "drill_stand", label = "Drill Stand" },
+	} },
+	{ dict = "amb@drink_bottle", label = "Drink Bottle", clips = {
+		{ name = "bottle_stand", label = "Bottle Stand" },
+		{ name = "bottle_walk", label = "Bottle Walk" },
+	} },
+	{ dict = "amb@drink_can", label = "Drink Can", clips = {
+		{ name = "can_stand", label = "Can Stand" },
+		{ name = "can_walk", label = "Can Walk" },
+	} },
+	{ dict = "amb@drink_f_fat", label = "Drink F Fat", clips = {
+		{ name = "drink_bottle_walk", label = "Drink Bottle Walk" },
+		{ name = "drink_can_walk", label = "Drink Can Walk" },
+		{ name = "drink_bottle", label = "Drink Bottle" },
+		{ name = "drink_can", label = "Drink Can" },
+	} },
+	{ dict = "amb@drink_fbottle", label = "Drink Fbottle", clips = {
+		{ name = "bottle_stand", label = "Bottle Stand" },
+		{ name = "bottle_walk", label = "Bottle Walk" },
+	} },
+	{ dict = "amb@drink_fcan", label = "Drink Fcan", clips = {
+		{ name = "can_stand", label = "Can Stand" },
+		{ name = "can_walk", label = "Can Walk" },
+	} },
+	{ dict = "amb@drugd_idl_a", label = "Drugd Idl A", clips = {
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@drugd_idl_b", label = "Drugd Idl B", clips = {
+		{ name = "idle_c", label = "Idle C" },
+	} },
+	{ dict = "amb@drugd_sell", label = "Drugd Sell", clips = {
+		{ name = "sell_drugs", label = "Sell Drugs" },
+		{ name = "buy_drugs", label = "Buy Drugs" },
+	} },
+	{ dict = "amb@drunk", label = "Drunk", clips = {
+		{ name = "dazed_getup_back", label = "Dazed Getup Back" },
+		{ name = "beggar_sitdown", label = "Beggar Sitdown" },
+		{ name = "wasted_seated", label = "Wasted Seated" },
+		{ name = "bum_fight", label = "Bum Fight" },
+		{ name = "lay_down", label = "Lay Down" },
+		{ name = "wastedc", label = "Wastedc" },
+		{ name = "wastedb", label = "Wastedb" },
+		{ name = "wastedd", label = "Wastedd" },
+		{ name = "wasteda", label = "Wasteda" },
+	} },
+	{ dict = "amb@eat_chocolate", label = "Eat Chocolate", clips = {
+		{ name = "choc_stand", label = "Choc Stand" },
+		{ name = "choc_walk", label = "Choc Walk" },
+	} },
+	{ dict = "amb@eat_fruit", label = "Eat Fruit", clips = {
+		{ name = "eat_stand", label = "Eat Stand" },
+		{ name = "eat_walk", label = "Eat Walk" },
+	} },
+	{ dict = "amb@ffood_server", label = "Ffood Server", clips = {
+		{ name = "sell_burger_female", label = "Sell Burger Female" },
+		{ name = "sell_burger_male", label = "Sell Burger Male" },
+		{ name = "eat_burger_plyr", label = "Eat Burger Plyr" },
+		{ name = "buy_burger_plyr", label = "Buy Burger Plyr" },
+	} },
+	{ dict = "amb@flee", label = "Flee", clips = {
+		{ name = "stand_into_ball_b", label = "Stand Into Ball B" },
+		{ name = "stand_into_ball", label = "Stand Into Ball" },
+	} },
+	{ dict = "amb@flee_a", label = "Flee A", clips = {
+		{ name = "run_flee_lookaround_c", label = "Run Flee Lookaround C" },
+		{ name = "run_flee_lookaround_b", label = "Run Flee Lookaround B" },
+		{ name = "run_tripup", label = "Run Tripup" },
+	} },
+	{ dict = "amb@garbage", label = "Garbage", clips = {
+		{ name = "pickuprubbish", label = "Pickuprubbish" },
+		{ name = "throwrubbish", label = "Throwrubbish" },
+		{ name = "hangontruck", label = "Hangontruck" },
+	} },
+	{ dict = "amb@hang_fat_cl_a", label = "Hang Fat Cl A", clips = {
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@hang_fat_cl_b", label = "Hang Fat Cl B", clips = {
+		{ name = "stand_idle_e", label = "Stand Idle E" },
+	} },
+	{ dict = "amb@hang_fat_idls", label = "Hang Fat Idls", clips = {
+		{ name = "stand_idle_g", label = "Stand Idle G" },
+		{ name = "stand_idle_d", label = "Stand Idle D" },
+	} },
+	{ dict = "amb@hang_st_i_f_cl_a", label = "Hang St I F Cl A", clips = {
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+	} },
+	{ dict = "amb@hang_st_i_f_cl_c", label = "Hang St I F Cl C", clips = {
+		{ name = "stand_idle_h", label = "Stand Idle H" },
+		{ name = "stand_idle_j", label = "Stand Idle J" },
+		{ name = "stand_idle_g", label = "Stand Idle G" },
+	} },
+	{ dict = "amb@hang_str_f_idls", label = "Hang Str F Idls", clips = {
+		{ name = "stand_idle_k2", label = "Stand Idle K2" },
+	} },
+	{ dict = "amb@hang_str_i_cl_a", label = "Hang Str I Cl A", clips = {
+		{ name = "stand_idle_b2", label = "Stand Idle B2" },
+		{ name = "stand_idle_b1", label = "Stand Idle B1" },
+		{ name = "stand_idle_b3", label = "Stand Idle B3" },
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+	} },
+	{ dict = "amb@hang_str_i_cl_c", label = "Hang Str I Cl C", clips = {
+		{ name = "stand_idle_h", label = "Stand Idle H" },
+		{ name = "stand_idle_g", label = "Stand Idle G" },
+	} },
+	{ dict = "amb@hang_str_idls", label = "Hang Str Idls", clips = {
+		{ name = "stand_idle_d", label = "Stand Idle D" },
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@hang_thin_cl", label = "Hang Thin Cl", clips = {
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@hang_thin_idls", label = "Hang Thin Idls", clips = {
+		{ name = "idle_d1", label = "Idle D1" },
+		{ name = "idle_d2", label = "Idle D2" },
+		{ name = "idle_d3", label = "Idle D3" },
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_a", label = "Idle A" },
+		{ name = "idle_d", label = "Idle D" },
+		{ name = "idle_c", label = "Idle C" },
+	} },
+	{ dict = "amb@homeless_a", label = "Homeless A", clips = {
+		{ name = "walkcycle_ground", label = "Walkcycle Ground" },
+		{ name = "walk_lookaround", label = "Walk Lookaround" },
+		{ name = "stand_blowhands", label = "Stand Blowhands" },
+	} },
+	{ dict = "amb@homeless_b", label = "Homeless B", clips = {
+		{ name = "stand_stretchneck", label = "Stand Stretchneck" },
+		{ name = "stand_look_ground", label = "Stand Look Ground" },
+	} },
+	{ dict = "amb@hooker", label = "Hooker", clips = {
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_c", label = "Idle C" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@hooker_fat", label = "Hooker Fat", clips = {
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_c", label = "Idle C" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@hospital_idles_a", label = "Hospital Idles A", clips = {
+		{ name = "cough", label = "Cough" },
+	} },
+	{ dict = "amb@hospital_idles_b", label = "Hospital Idles B", clips = {
+		{ name = "stomach", label = "Stomach" },
+		{ name = "sneeze", label = "Sneeze" },
+	} },
+	{ dict = "amb@hot", label = "Hot", clips = {
+		{ name = "sweaty_stand", label = "Sweaty Stand" },
+		{ name = "sweaty_walk", label = "Sweaty Walk" },
+		{ name = "sun_shield", label = "Sun Shield" },
+		{ name = "fan_stand", label = "Fan Stand" },
+		{ name = "fan_walk", label = "Fan Walk" },
+	} },
+	{ dict = "amb@hotdog_destroy", label = "Hotdog Destroy", clips = {
+		{ name = "destroy_stand", label = "Destroy Stand" },
+	} },
+	{ dict = "amb@hotdog_destroy_f", label = "Hotdog Destroy F", clips = {
+		{ name = "destroy_stand", label = "Destroy Stand" },
+		{ name = "destroy_walk", label = "Destroy Walk" },
+	} },
+	{ dict = "amb@hotdog_hold", label = "Hotdog Hold", clips = {
+		{ name = "hold_stand_f", label = "Hold Stand F" },
+		{ name = "hold_walk_f", label = "Hold Walk F" },
+		{ name = "hold_stand", label = "Hold Stand" },
+		{ name = "hold_walk", label = "Hold Walk" },
+	} },
+	{ dict = "amb@hotdog_idle", label = "Hotdog Idle", clips = {
+		{ name = "eat_stand", label = "Eat Stand" },
+		{ name = "eat_walk", label = "Eat Walk" },
+	} },
+	{ dict = "amb@hotdog_idle_f", label = "Hotdog Idle F", clips = {
+		{ name = "eat_stand", label = "Eat Stand" },
+		{ name = "eat_walk", label = "Eat Walk" },
+	} },
+	{ dict = "amb@hotdogcart", label = "Hotdogcart", clips = {
+		{ name = "stvendor_custmr_pay", label = "Stvendor Custmr Pay" },
+		{ name = "sell_hotdog_plyr", label = "Sell Hotdog Plyr" },
+		{ name = "eat_hotdog_plyr", label = "Eat Hotdog Plyr" },
+		{ name = "buy_hotdog_plyr", label = "Buy Hotdog Plyr" },
+		{ name = "stvendor_pay", label = "Stvendor Pay" },
+		{ name = "sell_hotdog", label = "Sell Hotdog" },
+		{ name = "buy_hotdog", label = "Buy Hotdog" },
+		{ name = "eat_hotdog", label = "Eat Hotdog" },
+	} },
+	{ dict = "amb@hurry_head", label = "Hurry Head", clips = {
+		{ name = "walk_a", label = "Walk A" },
+		{ name = "walk_b", label = "Walk B" },
+	} },
+	{ dict = "amb@hurry_walk", label = "Hurry Walk", clips = {
+		{ name = "walk_c", label = "Walk C" },
+		{ name = "walk_a", label = "Walk A" },
+	} },
+	{ dict = "amb@ice_vendor", label = "Ice Vendor", clips = {
+		{ name = "stand_eat_fastfood_2", label = "Stand Eat Fastfood 2" },
+		{ name = "stvendor_custmr_pay", label = "Stvendor Custmr Pay" },
+		{ name = "idle_stvendor", label = "Idle Stvendor" },
+		{ name = "walk_destroy", label = "Walk Destroy" },
+		{ name = "stvendor_pay", label = "Stvendor Pay" },
+		{ name = "take_obj", label = "Take Obj" },
+		{ name = "give_obj", label = "Give Obj" },
+		{ name = "walk_eat", label = "Walk Eat" },
+	} },
+	{ dict = "amb@icecream_default", label = "Icecream Default", clips = {
+		{ name = "stand_hold", label = "Stand Hold" },
+	} },
+	{ dict = "amb@icecream_destroy", label = "Icecream Destroy", clips = {
+		{ name = "walk_destroy", label = "Walk Destroy" },
+	} },
+	{ dict = "amb@icecream_idles", label = "Icecream Idles", clips = {
+		{ name = "stand_eat", label = "Stand Eat" },
+		{ name = "walk_eat", label = "Walk Eat" },
+	} },
+	{ dict = "amb@injured_front", label = "Injured Front", clips = {
+		{ name = "idle01", label = "Idle01" },
+	} },
+	{ dict = "amb@injured_side", label = "Injured Side", clips = {
+		{ name = "idle01", label = "Idle01" },
+	} },
+	{ dict = "amb@inquisitive", label = "Inquisitive", clips = {
+		{ name = "shock_c", label = "Shock C" },
+		{ name = "shock_d", label = "Shock D" },
+		{ name = "shock_b", label = "Shock B" },
+		{ name = "shock_e", label = "Shock E" },
+		{ name = "shock_a", label = "Shock A" },
+	} },
+	{ dict = "amb@int_cafe_idles", label = "Int Cafe Idles", clips = {
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_c", label = "Sit Idle C" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@kiosk", label = "Kiosk", clips = {
+		{ name = "customer_juice", label = "Customer Juice" },
+		{ name = "customer_paper", label = "Customer Paper" },
+		{ name = "customer_cigs", label = "Customer Cigs" },
+		{ name = "player_drink", label = "Player Drink" },
+		{ name = "vendor_juice", label = "Vendor Juice" },
+		{ name = "vendor_paper", label = "Vendor Paper" },
+		{ name = "vendor_cigs", label = "Vendor Cigs" },
+	} },
+	{ dict = "amb@lean_balc_cre", label = "Lean Balc Cre", clips = {
+		{ name = "smoke_create", label = "Smoke Create" },
+	} },
+	{ dict = "amb@lean_balc_i_a", label = "Lean Balc I A", clips = {
+		{ name = "crack_knuckles", label = "Crack Knuckles" },
+		{ name = "lookaround_a", label = "Lookaround A" },
+	} },
+	{ dict = "amb@lean_balc_i_b", label = "Lean Balc I B", clips = {
+		{ name = "lookaround_b", label = "Lookaround B" },
+	} },
+	{ dict = "amb@lean_balc_i_b_f", label = "Lean Balc I B F", clips = {
+		{ name = "smoke_b", label = "Smoke B" },
+		{ name = "smoke", label = "Smoke" },
+	} },
+	{ dict = "amb@lean_balc_idl_b", label = "Lean Balc Idl B", clips = {
+		{ name = "smoke_b", label = "Smoke B" },
+		{ name = "smoke", label = "Smoke" },
+	} },
+	{ dict = "amb@lean_idl_b", label = "Lean Idl B", clips = {
+		{ name = "look_at_watch", label = "Look At Watch" },
+		{ name = "scratch_head", label = "Scratch Head" },
+	} },
+	{ dict = "amb@lean_idles", label = "Lean Idles", clips = {
+		{ name = "lean_idle_a", label = "Lean Idle A" },
+	} },
+	{ dict = "amb@lean_phone_idles", label = "Lean Phone Idles", clips = {
+		{ name = "lean_phone", label = "Lean Phone" },
+	} },
+	{ dict = "amb@lean_smoke_idles", label = "Lean Smoke Idles", clips = {
+		{ name = "lean_stand", label = "Lean Stand" },
+	} },
+	{ dict = "amb@look_dead_ped", label = "Look Dead Ped", clips = {
+		{ name = "shakes_head_b", label = "Shakes Head B" },
+		{ name = "shakes_head", label = "Shakes Head" },
+	} },
+	{ dict = "amb@mag_vendor", label = "Mag Vendor", clips = {
+		{ name = "take_obj", label = "Take Obj" },
+		{ name = "give_obj", label = "Give Obj" },
+	} },
+	{ dict = "amb@misc", label = "Misc", clips = {
+		{ name = "lost", label = "Lost" },
+	} },
+	{ dict = "amb@mission_end", label = "Mission End", clips = {
+		{ name = "partial_wave_a", label = "Partial Wave A" },
+	} },
+	{ dict = "amb@music_create", label = "Music Create", clips = {
+		{ name = "walk_start_mp3", label = "Walk Start Mp3" },
+	} },
+	{ dict = "amb@music_destroy", label = "Music Destroy", clips = {
+		{ name = "walk_put_mp3_away", label = "Walk Put Mp3 Away" },
+	} },
+	{ dict = "amb@music_hold", label = "Music Hold", clips = {
+		{ name = "walk_hold_mp3", label = "Walk Hold Mp3" },
+	} },
+	{ dict = "amb@music_idles", label = "Music Idles", clips = {
+		{ name = "walk_hold_mp3_idle", label = "Walk Hold Mp3 Idle" },
+	} },
+	{ dict = "amb@newspaper_create", label = "Newspaper Create", clips = {
+		{ name = "create_walk", label = "Create Walk" },
+	} },
+	{ dict = "amb@newspaper_destry", label = "Newspaper Destry", clips = {
+		{ name = "walk_destroy", label = "Walk Destroy" },
+	} },
+	{ dict = "amb@newspaper_hold", label = "Newspaper Hold", clips = {
+		{ name = "walk_hold", label = "Walk Hold" },
+	} },
+	{ dict = "amb@newspaper_idles", label = "Newspaper Idles", clips = {
+		{ name = "walk_read", label = "Walk Read" },
+	} },
+	{ dict = "amb@newspaper_vend", label = "Newspaper Vend", clips = {
+		{ name = "get_paper", label = "Get Paper" },
+	} },
+	{ dict = "amb@nightclub_ext", label = "Nightclub Ext", clips = {
+		{ name = "bouncer_a_refuse_entry", label = "Bouncer A Refuse Entry" },
+		{ name = "bouncer_b_welcome", label = "Bouncer B Welcome" },
+		{ name = "bouncer_a_checkid", label = "Bouncer A Checkid" },
+		{ name = "street_argue_f_b", label = "Street Argue F B" },
+		{ name = "clubber_id_check", label = "Clubber Id Check" },
+		{ name = "street_argue_f_a", label = "Street Argue F A" },
+		{ name = "clubber_frisked", label = "Clubber Frisked" },
+		{ name = "bouncer_a_frisk", label = "Bouncer A Frisk" },
+		{ name = "street_chat_f_a", label = "Street Chat F A" },
+		{ name = "street_chat_f_b", label = "Street Chat F B" },
+		{ name = "smoke_stub_out", label = "Smoke Stub Out" },
+		{ name = "smoke_light_up", label = "Smoke Light Up" },
+		{ name = "street_argue_a", label = "Street Argue A" },
+		{ name = "street_argue_b", label = "Street Argue B" },
+		{ name = "smoke_stand_a", label = "Smoke Stand A" },
+		{ name = "street_chat_b", label = "Street Chat B" },
+		{ name = "smoke_stand_b", label = "Smoke Stand B" },
+		{ name = "street_chat_a", label = "Street Chat A" },
+		{ name = "wasteda", label = "Wasteda" },
+	} },
+	{ dict = "amb@nutcart", label = "Nutcart", clips = {
+		{ name = "stvendor_custmr_pay", label = "Stvendor Custmr Pay" },
+		{ name = "sell_nuts_plyr", label = "Sell Nuts Plyr" },
+		{ name = "buy_nuts_plyr", label = "Buy Nuts Plyr" },
+		{ name = "eat_nuts_plyr", label = "Eat Nuts Plyr" },
+		{ name = "stvendor_pay", label = "Stvendor Pay" },
+		{ name = "sell_nuts", label = "Sell Nuts" },
+		{ name = "eat_walk", label = "Eat Walk" },
+		{ name = "buy_nuts", label = "Buy Nuts" },
+	} },
+	{ dict = "amb@nuts_create", label = "Nuts Create", clips = {
+		{ name = "create_walk", label = "Create Walk" },
+	} },
+	{ dict = "amb@nuts_destroy", label = "Nuts Destroy", clips = {
+		{ name = "destroy_stand", label = "Destroy Stand" },
+		{ name = "destroy_walk", label = "Destroy Walk" },
+	} },
+	{ dict = "amb@nuts_hold", label = "Nuts Hold", clips = {
+		{ name = "hold_stand", label = "Hold Stand" },
+		{ name = "hold_walk", label = "Hold Walk" },
+	} },
+	{ dict = "amb@nuts_idle", label = "Nuts Idle", clips = {
+		{ name = "eat_stand", label = "Eat Stand" },
+		{ name = "eat_walk", label = "Eat Walk" },
+	} },
+	{ dict = "amb@park_taichi_a", label = "Park Taichi A", clips = {
+		{ name = "taichi01", label = "Taichi01" },
+	} },
+	{ dict = "amb@park_taichi_b", label = "Park Taichi B", clips = {
+		{ name = "taichi02", label = "Taichi02" },
+	} },
+	{ dict = "amb@payphone", label = "Payphone", clips = {
+		{ name = "pick_up_phone", label = "Pick Up Phone" },
+		{ name = "cellphone_in", label = "Cellphone In" },
+		{ name = "duck_cower", label = "Duck Cower" },
+		{ name = "angryman", label = "Angryman" },
+	} },
+	{ dict = "amb@payphone_create", label = "Payphone Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+	} },
+	{ dict = "amb@payphone_idl_a", label = "Payphone Idl A", clips = {
+		{ name = "idle_a", label = "Idle A" },
+		{ name = "idle_b", label = "Idle B" },
+	} },
+	{ dict = "amb@payphone_idl_b", label = "Payphone Idl B", clips = {
+		{ name = "idle_d", label = "Idle D" },
+		{ name = "idle_e", label = "Idle E" },
+		{ name = "idle_c", label = "Idle C" },
+	} },
+	{ dict = "amb@phone_f", label = "Phone F", clips = {
+		{ name = "walk_quick_call", label = "Walk Quick Call" },
+		{ name = "idle_quick_call", label = "Idle Quick Call" },
+		{ name = "stand_text", label = "Stand Text" },
+		{ name = "walk_text", label = "Walk Text" },
+	} },
+	{ dict = "amb@phone_m_a", label = "Phone M A", clips = {
+		{ name = "idle_quick_call", label = "Idle Quick Call" },
+		{ name = "stand_text", label = "Stand Text" },
+	} },
+	{ dict = "amb@phone_m_b", label = "Phone M B", clips = {
+		{ name = "walk_quick_call", label = "Walk Quick Call" },
+		{ name = "walk_text", label = "Walk Text" },
+	} },
+	{ dict = "amb@pimps_pros", label = "Pimps Pros", clips = {
+		{ name = "street_argue_f_a", label = "Street Argue F A" },
+	} },
+	{ dict = "amb@plank_create", label = "Plank Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+	} },
+	{ dict = "amb@plank_hold", label = "Plank Hold", clips = {
+		{ name = "stand_carry", label = "Stand Carry" },
+	} },
+	{ dict = "amb@postman_idles", label = "Postman Idles", clips = {
+		{ name = "search_letterbox", label = "Search Letterbox" },
+		{ name = "sort_letters", label = "Sort Letters" },
+	} },
+	{ dict = "amb@preach_idl_a", label = "Preach Idl A", clips = {
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@preach_idl_b", label = "Preach Idl B", clips = {
+		{ name = "idle_c", label = "Idle C" },
+		{ name = "idle_d", label = "Idle D" },
+	} },
+	{ dict = "amb@preen", label = "Preen", clips = {
+		{ name = "comb_hair", label = "Comb Hair" },
+	} },
+	{ dict = "amb@preen_bsness", label = "Preen Bsness", clips = {
+		{ name = "brushoff_suit_stand", label = "Brushoff Suit Stand" },
+	} },
+	{ dict = "amb@rain_newspaper", label = "Rain Newspaper", clips = {
+		{ name = "hold_above_head", label = "Hold Above Head" },
+	} },
+	{ dict = "amb@rain_newspaper_b", label = "Rain Newspaper B", clips = {
+		{ name = "hold_above_head", label = "Hold Above Head" },
+	} },
+	{ dict = "amb@rake_create", label = "Rake Create", clips = {
+		{ name = "rake_create", label = "Rake Create" },
+	} },
+	{ dict = "amb@rake_f_create", label = "Rake F Create", clips = {
+		{ name = "rake_create", label = "Rake Create" },
+	} },
+	{ dict = "amb@rake_f_idles", label = "Rake F Idles", clips = {
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+		{ name = "stand_idle_c", label = "Stand Idle C" },
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@rake_f_walk", label = "Rake F Walk", clips = {
+		{ name = "walk_rake", label = "Walk Rake" },
+	} },
+	{ dict = "amb@rake_hold", label = "Rake Hold", clips = {
+		{ name = "walk_rake", label = "Walk Rake" },
+	} },
+	{ dict = "amb@rake_idles", label = "Rake Idles", clips = {
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+		{ name = "stand_idle_c", label = "Stand Idle C" },
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@rake_walk", label = "Rake Walk", clips = {
+		{ name = "walk_rake", label = "Walk Rake" },
+	} },
+	{ dict = "amb@roadcross", label = "Roadcross", clips = {
+		{ name = "wait_at_kerb", label = "Wait At Kerb" },
+	} },
+	{ dict = "amb@roadcross_head", label = "Roadcross Head", clips = {
+		{ name = "walk_lookaround_a", label = "Walk Lookaround A" },
+		{ name = "walk_lookaround_b", label = "Walk Lookaround B" },
+		{ name = "lookaround_b", label = "Lookaround B" },
+		{ name = "lookaround_a", label = "Lookaround A" },
+	} },
+	{ dict = "amb@roadcross_rain", label = "Roadcross Rain", clips = {
+		{ name = "walk_across_road", label = "Walk Across Road" },
+		{ name = "run_across_road", label = "Run Across Road" },
+		{ name = "wait_at_kerb", label = "Wait At Kerb" },
+	} },
+	{ dict = "amb@roadcross_rain_b", label = "Roadcross Rain B", clips = {
+		{ name = "walk_across_road_b", label = "Walk Across Road B" },
+	} },
+	{ dict = "amb@rubbish", label = "Rubbish", clips = {
+		{ name = "throw_right", label = "Throw Right" },
+	} },
+	{ dict = "amb@savegame", label = "Savegame", clips = {
+		{ name = "upset_get_out_bed_l", label = "Upset Get Out Bed L" },
+		{ name = "angry_get_out_bed_l", label = "Angry Get Out Bed L" },
+		{ name = "upset_in_bed_idle", label = "Upset In Bed Idle" },
+		{ name = "get_out_bed_l", label = "Get Out Bed L" },
+		{ name = "get_out_bed_r", label = "Get Out Bed R" },
+		{ name = "lie_on_bed_l", label = "Lie On Bed L" },
+		{ name = "lie_on_bed_r", label = "Lie On Bed R" },
+	} },
+	{ dict = "amb@security_idles_a", label = "Security Idles A", clips = {
+		{ name = "idle_answer_radio_a", label = "Idle Answer Radio A" },
+		{ name = "idle_answer_radio_b", label = "Idle Answer Radio B" },
+	} },
+	{ dict = "amb@security_idles_b", label = "Security Idles B", clips = {
+		{ name = "walk_answer_radio_a", label = "Walk Answer Radio A" },
+		{ name = "idle_hear_noise", label = "Idle Hear Noise" },
+		{ name = "idle_blow_hands", label = "Idle Blow Hands" },
+		{ name = "walk", label = "Walk" },
+	} },
+	{ dict = "amb@security_idles_c", label = "Security Idles C", clips = {
+		{ name = "idle_lookaround_b", label = "Idle Lookaround B" },
+		{ name = "idle_lookaround_a", label = "Idle Lookaround A" },
+		{ name = "idle_stretch_a", label = "Idle Stretch A" },
+	} },
+	{ dict = "amb@security_idles_d", label = "Security Idles D", clips = {
+		{ name = "walk_answer_radio_b", label = "Walk Answer Radio B" },
+		{ name = "idle_play_with_belt", label = "Idle Play With Belt" },
+	} },
+	{ dict = "amb@service_idles_a", label = "Service Idles A", clips = {
+		{ name = "kick", label = "Kick" },
+		{ name = "hit", label = "Hit" },
+	} },
+	{ dict = "amb@service_idles_b", label = "Service Idles B", clips = {
+		{ name = "scratch_head", label = "Scratch Head" },
+		{ name = "work_a", label = "Work A" },
+	} },
+	{ dict = "amb@shock", label = "Shock", clips = {
+		{ name = "shock_e", label = "Shock E" },
+		{ name = "shock_d", label = "Shock D" },
+		{ name = "shock_c", label = "Shock C" },
+		{ name = "shock_a", label = "Shock A" },
+		{ name = "shock_f", label = "Shock F" },
+		{ name = "shock_b", label = "Shock B" },
+	} },
+	{ dict = "amb@shock_events", label = "Shock Events", clips = {
+		{ name = "head_down_look_straight", label = "Head Down Look Straight" },
+		{ name = "look_over_shoulder", label = "Look Over Shoulder" },
+		{ name = "point_nervously", label = "Point Nervously" },
+		{ name = "look_shocked", label = "Look Shocked" },
+	} },
+	{ dict = "amb@shoes_a", label = "Shoes A", clips = {
+		{ name = "stand_in_crap", label = "Stand In Crap" },
+		{ name = "look_at_shoes", label = "Look At Shoes" },
+		{ name = "brush_shoe", label = "Brush Shoe" },
+	} },
+	{ dict = "amb@shoes_b", label = "Shoes B", clips = {
+		{ name = "walk_tie_shoe", label = "Walk Tie Shoe" },
+		{ name = "tie_shoe", label = "Tie Shoe" },
+	} },
+	{ dict = "amb@shop_int", label = "Shop Int", clips = {
+		{ name = "m_putwalletaway_pocket", label = "M Putwalletaway Pocket" },
+		{ name = "m_getoutwallet_pocket", label = "M Getoutwallet Pocket" },
+		{ name = "m_insertcard", label = "M Insertcard" },
+		{ name = "f_insertcard", label = "F Insertcard" },
+		{ name = "m_takecash", label = "M Takecash" },
+		{ name = "f_wait", label = "F Wait" },
+		{ name = "m_wait", label = "M Wait" },
+	} },
+	{ dict = "amb@sledge_create", label = "Sledge Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+	} },
+	{ dict = "amb@sledge_idles", label = "Sledge Idles", clips = {
+		{ name = "swing_stand", label = "Swing Stand" },
+		{ name = "wipe_stand", label = "Wipe Stand" },
+		{ name = "rest_stand", label = "Rest Stand" },
+	} },
+	{ dict = "amb@smk_scn_create", label = "Smk Scn Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@smk_scn_create_f", label = "Smk Scn Create F", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@smk_scn_dest_f", label = "Smk Scn Dest F", clips = {
+		{ name = "walk_destroy", label = "Walk Destroy" },
+	} },
+	{ dict = "amb@smk_scn_destroy", label = "Smk Scn Destroy", clips = {
+		{ name = "walk_destroy", label = "Walk Destroy" },
+	} },
+	{ dict = "amb@smk_scn_idles", label = "Smk Scn Idles", clips = {
+		{ name = "stand_smoke", label = "Stand Smoke" },
+		{ name = "walk_smoke", label = "Walk Smoke" },
+	} },
+	{ dict = "amb@smk_scn_idles_f", label = "Smk Scn Idles F", clips = {
+		{ name = "stand_smoke", label = "Stand Smoke" },
+		{ name = "walk_smoke", label = "Walk Smoke" },
+	} },
+	{ dict = "amb@smoking", label = "Smoking", clips = {
+		{ name = "stand_smoke", label = "Stand Smoke" },
+		{ name = "walk_smoke", label = "Walk Smoke" },
+	} },
+	{ dict = "amb@smoking_create", label = "Smoking Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@smoking_create_f", label = "Smoking Create F", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@smoking_dest_f", label = "Smoking Dest F", clips = {
+		{ name = "walk_destroy", label = "Walk Destroy" },
+	} },
+	{ dict = "amb@smoking_destroy", label = "Smoking Destroy", clips = {
+		{ name = "walk_destroy", label = "Walk Destroy" },
+	} },
+	{ dict = "amb@smoking_f", label = "Smoking F", clips = {
+		{ name = "stand_smoke", label = "Stand Smoke" },
+		{ name = "walk_smoke", label = "Walk Smoke" },
+	} },
+	{ dict = "amb@smoking_idles", label = "Smoking Idles", clips = {
+		{ name = "stand_smoke", label = "Stand Smoke" },
+		{ name = "walk_smoke", label = "Walk Smoke" },
+	} },
+	{ dict = "amb@smoking_idles_f", label = "Smoking Idles F", clips = {
+		{ name = "stand_smoke", label = "Stand Smoke" },
+		{ name = "walk_smoke", label = "Walk Smoke" },
+	} },
+	{ dict = "amb@smoking_spliff", label = "Smoking Spliff", clips = {
+		{ name = "partial_smoke_car", label = "Partial Smoke Car" },
+		{ name = "partial_smoke", label = "Partial Smoke" },
+		{ name = "create_spliff", label = "Create Spliff" },
+	} },
+	{ dict = "amb@spade_idles", label = "Spade Idles", clips = {
+		{ name = "dig_rest_stand", label = "Dig Rest Stand" },
+		{ name = "dig_stand", label = "Dig Stand" },
+	} },
+	{ dict = "amb@sprunk_ped", label = "Sprunk Ped", clips = {
+		{ name = "buy_drink", label = "Buy Drink" },
+	} },
+	{ dict = "amb@sprunk_plyr", label = "Sprunk Plyr", clips = {
+		{ name = "partial_drink", label = "Partial Drink" },
+		{ name = "buy_drink", label = "Buy Drink" },
+	} },
+	{ dict = "amb@standing_female", label = "Standing Female", clips = {
+		{ name = "look_at_nails", label = "Look At Nails" },
+		{ name = "look_at_watch", label = "Look At Watch" },
+		{ name = "look_around", label = "Look Around" },
+	} },
+	{ dict = "amb@standing_male", label = "Standing Male", clips = {
+		{ name = "look_at_watch", label = "Look At Watch" },
+		{ name = "look_around", label = "Look Around" },
+		{ name = "crick_neck", label = "Crick Neck" },
+	} },
+	{ dict = "amb@standing_vendor", label = "Standing Vendor", clips = {
+		{ name = "idle_b", label = "Idle B" },
+		{ name = "idle_c", label = "Idle C" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@step_idl_a", label = "Step Idl A", clips = {
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@step_idl_b", label = "Step Idl B", clips = {
+		{ name = "sit_idle_d", label = "Sit Idle D" },
+		{ name = "sit_idle_c", label = "Sit Idle C" },
+	} },
+	{ dict = "amb@step_idles", label = "Step Idles", clips = {
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@step_idles_b", label = "Step Idles B", clips = {
+		{ name = "idle_c", label = "Idle C" },
+		{ name = "idle_d", label = "Idle D" },
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@stoop_argue", label = "Stoop Argue", clips = {
+		{ name = "sit_loop", label = "Sit Loop" },
+		{ name = "sit_down", label = "Sit Down" },
+		{ name = "argue_b", label = "Argue B" },
+		{ name = "argue_a", label = "Argue A" },
+	} },
+	{ dict = "amb@stop_create", label = "Stop Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+	} },
+	{ dict = "amb@stop_idles", label = "Stop Idles", clips = {
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@strip_chr_idls_a", label = "Strip Chr Idls A", clips = {
+		{ name = "clap_hands_b", label = "Clap Hands B" },
+		{ name = "clap_hands", label = "Clap Hands" },
+	} },
+	{ dict = "amb@strip_chr_idls_b", label = "Strip Chr Idls B", clips = {
+		{ name = "wave_over", label = "Wave Over" },
+	} },
+	{ dict = "amb@strip_rail_idl", label = "Strip Rail Idl", clips = {
+		{ name = "lean_rail_d", label = "Lean Rail D" },
+		{ name = "lean_rail_e", label = "Lean Rail E" },
+		{ name = "lean_rail_c", label = "Lean Rail C" },
+		{ name = "lean_rail_a", label = "Lean Rail A" },
+		{ name = "lean_rail_b", label = "Lean Rail B" },
+	} },
+	{ dict = "amb@strip_stool_i_a", label = "Strip Stool I A", clips = {
+		{ name = "clap_hands_b", label = "Clap Hands B" },
+		{ name = "clap_hands", label = "Clap Hands" },
+	} },
+	{ dict = "amb@strip_stool_i_b", label = "Strip Stool I B", clips = {
+		{ name = "wave_over", label = "Wave Over" },
+	} },
+	{ dict = "amb@super_create", label = "Super Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+	} },
+	{ dict = "amb@super_idles_a", label = "Super Idles A", clips = {
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@super_idles_b", label = "Super Idles B", clips = {
+		{ name = "stand_idle_c", label = "Stand Idle C" },
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+	} },
+	{ dict = "amb@super_part", label = "Super Part", clips = {
+		{ name = "hold", label = "Hold" },
+	} },
+	{ dict = "amb@sweep_create", label = "Sweep Create", clips = {
+		{ name = "walk_create", label = "Walk Create" },
+	} },
+	{ dict = "amb@sweep_ffood_i_f", label = "Sweep Ffood I F", clips = {
+		{ name = "sweep_idle_b", label = "Sweep Idle B" },
+		{ name = "sweep_idle_a", label = "Sweep Idle A" },
+	} },
+	{ dict = "amb@sweep_ffood_idl", label = "Sweep Ffood Idl", clips = {
+		{ name = "sweep_idle_b", label = "Sweep Idle B" },
+		{ name = "sweep_idle_a", label = "Sweep Idle A" },
+	} },
+	{ dict = "amb@sweep_hold", label = "Sweep Hold", clips = {
+		{ name = "walk_hold", label = "Walk Hold" },
+	} },
+	{ dict = "amb@sweep_idles", label = "Sweep Idles", clips = {
+		{ name = "sweep_walkcycle", label = "Sweep Walkcycle" },
+		{ name = "sweep_stand_b", label = "Sweep Stand B" },
+		{ name = "sweep_stand", label = "Sweep Stand" },
+	} },
+	{ dict = "amb@taxi", label = "Taxi", clips = {
+		{ name = "taxi_driver_meter_press", label = "Taxi Driver Meter Press" },
+		{ name = "taxi_driver_chat_out", label = "Taxi Driver Chat Out" },
+		{ name = "taxi_driver_chat_in", label = "Taxi Driver Chat In" },
+		{ name = "taxi_driver_chat", label = "Taxi Driver Chat" },
+	} },
+	{ dict = "amb@taxi_hail_f", label = "Taxi Hail F", clips = {
+		{ name = "hail_right", label = "Hail Right" },
+		{ name = "hail_left", label = "Hail Left" },
+	} },
+	{ dict = "amb@taxi_hail_m", label = "Taxi Hail M", clips = {
+		{ name = "hail_right", label = "Hail Right" },
+		{ name = "hail_left", label = "Hail Left" },
+	} },
+	{ dict = "amb@taxi_wait_i_f_a", label = "Taxi Wait I F A", clips = {
+		{ name = "failed_hail_b", label = "Failed Hail B" },
+		{ name = "failed_hail_a", label = "Failed Hail A" },
+	} },
+	{ dict = "amb@taxi_wait_i_f_b", label = "Taxi Wait I F B", clips = {
+		{ name = "look_around", label = "Look Around" },
+		{ name = "look_watch", label = "Look Watch" },
+		{ name = "lean_look", label = "Lean Look" },
+		{ name = "tiptoe", label = "Tiptoe" },
+	} },
+	{ dict = "amb@taxi_wait_i_m_a", label = "Taxi Wait I M A", clips = {
+		{ name = "failed_hail_b", label = "Failed Hail B" },
+		{ name = "failed_hail", label = "Failed Hail" },
+	} },
+	{ dict = "amb@taxi_wait_i_m_b", label = "Taxi Wait I M B", clips = {
+		{ name = "failed_hail_c", label = "Failed Hail C" },
+		{ name = "look_around", label = "Look Around" },
+		{ name = "lean_look", label = "Lean Look" },
+	} },
+	{ dict = "amb@taxi_wait_i_m_c", label = "Taxi Wait I M C", clips = {
+		{ name = "look_watch", label = "Look Watch" },
+		{ name = "tiptoe", label = "Tiptoe" },
+	} },
+	{ dict = "amb@telegraph_idles", label = "Telegraph Idles", clips = {
+		{ name = "look_down_b", label = "Look Down B" },
+		{ name = "look_down", label = "Look Down" },
+		{ name = "hammer", label = "Hammer" },
+	} },
+	{ dict = "amb@telescope_idl_f", label = "Telescope Idl F", clips = {
+		{ name = "stand_money", label = "Stand Money" },
+		{ name = "stand_point", label = "Stand Point" },
+		{ name = "stand_focus", label = "Stand Focus" },
+	} },
+	{ dict = "amb@telescope_idles", label = "Telescope Idles", clips = {
+		{ name = "stand_focus", label = "Stand Focus" },
+		{ name = "stand_point", label = "Stand Point" },
+		{ name = "stand_money", label = "Stand Money" },
+	} },
+	{ dict = "amb@telescope_player", label = "Telescope Player", clips = {
+		{ name = "look_intro", label = "Look Intro" },
+	} },
+	{ dict = "amb@tollbooth", label = "Tollbooth", clips = {
+		{ name = "toss_money_chopper", label = "Toss Money Chopper" },
+		{ name = "toss_money_freeway", label = "Toss Money Freeway" },
+		{ name = "toss_money_scooter", label = "Toss Money Scooter" },
+		{ name = "indicate_left_a", label = "Indicate Left A" },
+		{ name = "toss_money_dirt", label = "Toss Money Dirt" },
+		{ name = "indicate_left_b", label = "Indicate Left B" },
+		{ name = "toss_money_spt", label = "Toss Money Spt" },
+		{ name = "give_money", label = "Give Money" },
+		{ name = "idle", label = "Idle" },
+	} },
+	{ dict = "amb@tourist_camera", label = "Tourist Camera", clips = {
+		{ name = "take_pictures", label = "Take Pictures" },
+	} },
+	{ dict = "amb@tourist_create", label = "Tourist Create", clips = {
+		{ name = "stand_create", label = "Stand Create" },
+	} },
+	{ dict = "amb@tourist_f", label = "Tourist F", clips = {
+		{ name = "take_pictures", label = "Take Pictures" },
+		{ name = "lookaround", label = "Lookaround" },
+		{ name = "lost", label = "Lost" },
+	} },
+	{ dict = "amb@tourist_hold", label = "Tourist Hold", clips = {
+		{ name = "hold_camera_m", label = "Hold Camera M" },
+		{ name = "hold_camera_f", label = "Hold Camera F" },
+	} },
+	{ dict = "amb@tourist_idles_a", label = "Tourist Idles A", clips = {
+		{ name = "lookaround", label = "Lookaround" },
+		{ name = "lost", label = "Lost" },
+	} },
+	{ dict = "amb@tourist_idles_b", label = "Tourist Idles B", clips = {
+		{ name = "take_pictures", label = "Take Pictures" },
+		{ name = "walk", label = "Walk" },
+	} },
+	{ dict = "amb@tripup", label = "Tripup", clips = {
+		{ name = "trip_up", label = "Trip Up" },
+	} },
+	{ dict = "amb@umbrella_close", label = "Umbrella Close", clips = {
+		{ name = "stand_close", label = "Stand Close" },
+		{ name = "walk_close", label = "Walk Close" },
+	} },
+	{ dict = "amb@umbrella_f_fat", label = "Umbrella F Fat", clips = {
+		{ name = "umbrella_check_for_rain", label = "Umbrella Check For Rain" },
+		{ name = "umbrella_idle_hold_walk", label = "Umbrella Idle Hold Walk" },
+		{ name = "umbrella_idle_hold", label = "Umbrella Idle Hold" },
+		{ name = "umbrella_close", label = "Umbrella Close" },
+		{ name = "umbrella_open", label = "Umbrella Open" },
+	} },
+	{ dict = "amb@umbrella_hold", label = "Umbrella Hold", clips = {
+		{ name = "stand_hold", label = "Stand Hold" },
+		{ name = "walk_hold", label = "Walk Hold" },
+	} },
+	{ dict = "amb@umbrella_idl_a", label = "Umbrella Idl A", clips = {
+		{ name = "walk_check_rain", label = "Walk Check Rain" },
+		{ name = "walk_collar", label = "Walk Collar" },
+	} },
+	{ dict = "amb@umbrella_idl_b", label = "Umbrella Idl B", clips = {
+		{ name = "walk_lookaround", label = "Walk Lookaround" },
+		{ name = "wind_struggle", label = "Wind Struggle" },
+	} },
+	{ dict = "amb@umbrella_open_a", label = "Umbrella Open A", clips = {
+		{ name = "stand_lookatsky", label = "Stand Lookatsky" },
+		{ name = "run_for_cover", label = "Run For Cover" },
+		{ name = "stand_open", label = "Stand Open" },
+	} },
+	{ dict = "amb@umbrella_open_b", label = "Umbrella Open B", clips = {
+		{ name = "walk_collar_up", label = "Walk Collar Up" },
+		{ name = "walk_open", label = "Walk Open" },
+	} },
+	{ dict = "amb@vendor", label = "Vendor", clips = {
+		{ name = "idle_stvendor_scratch", label = "Idle Stvendor Scratch" },
+		{ name = "stand_eat_fastfood_2", label = "Stand Eat Fastfood 2" },
+		{ name = "stvendor_custmr_pay", label = "Stvendor Custmr Pay" },
+		{ name = "vendor_recieve", label = "Vendor Recieve" },
+		{ name = "idle_stvendor", label = "Idle Stvendor" },
+		{ name = "stvendor_pay", label = "Stvendor Pay" },
+		{ name = "hotdog_vend", label = "Hotdog Vend" },
+		{ name = "vendor_give", label = "Vendor Give" },
+		{ name = "eat_hotdog", label = "Eat Hotdog" },
+		{ name = "hotdog_buy", label = "Hotdog Buy" },
+		{ name = "give_obj", label = "Give Obj" },
+		{ name = "take_obj", label = "Take Obj" },
+		{ name = "eat_walk", label = "Eat Walk" },
+	} },
+	{ dict = "amb@wall_idles", label = "Wall Idles", clips = {
+		{ name = "sit_idle_d", label = "Sit Idle D" },
+		{ name = "sit_idle_c", label = "Sit Idle C" },
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@wall_idles_f", label = "Wall Idles F", clips = {
+		{ name = "sit_idle_b", label = "Sit Idle B" },
+		{ name = "sit_idle_c", label = "Sit Idle C" },
+		{ name = "sit_idle_a", label = "Sit Idle A" },
+	} },
+	{ dict = "amb@wall_read_idl", label = "Wall Read Idl", clips = {
+		{ name = "turn_page", label = "Turn Page" },
+	} },
+	{ dict = "amb@wall_read_idl_f", label = "Wall Read Idl F", clips = {
+		{ name = "turn_page", label = "Turn Page" },
+	} },
+	{ dict = "amb@wallet", label = "Wallet", clips = {
+		{ name = "stand_check_wallet", label = "Stand Check Wallet" },
+	} },
+	{ dict = "amb@wasted_a", label = "Wasted A", clips = {
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@wasted_b", label = "Wasted B", clips = {
+		{ name = "idle_a", label = "Idle A" },
+	} },
+	{ dict = "amb@watch_melee", label = "Watch Melee", clips = {
+		{ name = "cheer_on_fight_b", label = "Cheer On Fight B" },
+		{ name = "cheer_on_fight_a", label = "Cheer On Fight A" },
+		{ name = "cheer_on_fight_c", label = "Cheer On Fight C" },
+		{ name = "cheer_on_fight_d", label = "Cheer On Fight D" },
+		{ name = "cheer_on_fight_e", label = "Cheer On Fight E" },
+	} },
+	{ dict = "amb@wcan_create", label = "Wcan Create", clips = {
+		{ name = "can_create", label = "Can Create" },
+	} },
+	{ dict = "amb@wcan_idles", label = "Wcan Idles", clips = {
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@wcan_part", label = "Wcan Part", clips = {
+		{ name = "hold_can", label = "Hold Can" },
+	} },
+	{ dict = "amb@winclean_idl", label = "Winclean Idl", clips = {
+		{ name = "clean_b", label = "Clean B" },
+		{ name = "clean_c", label = "Clean C" },
+		{ name = "clean_a", label = "Clean A" },
+	} },
+	{ dict = "amb@winshop_idles", label = "Winshop Idles", clips = {
+		{ name = "stand_idle_b", label = "Stand Idle B" },
+		{ name = "stand_idle_c", label = "Stand Idle C" },
+		{ name = "stand_idle_a", label = "Stand Idle A" },
+	} },
+	{ dict = "amb@yawn", label = "Yawn", clips = {
+		{ name = "yawn", label = "Yawn" },
+	} },
+}

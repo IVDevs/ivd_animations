@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Animations</title>
+<link rel="stylesheet" href="animations.css">
+</head>
+<body>
+<div class="wrapper">
+  <div class="panel">
+    <div class="panel-head">
+      <div class="brand"><span class="brand-iv">IV</span><span class="brand-d">D</span> Animations</div>
+      <button type="button" id="close" class="close-btn">&times;</button>
+    </div>
+
+    <input type="text" id="search" class="search" placeholder="Search animations (e.g. wave, dance, sit)...">
+
+    <button type="button" id="cancelAnim" class="cancel-btn">Cancel Current Animation (X)</button>
+
+    <div class="split">
+      <div class="categories" id="categories"></div>
+      <div class="results" id="results"></div>
+    </div>
+    <div class="hint">706 animations loaded &middot; type to search or pick a category &middot; F3/Esc to close</div>
+  </div>
+</div>
+<script src="animations_data.js"></script>
+<script src="animations.js"></script>
+</body>
+</html>

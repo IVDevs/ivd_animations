@@ -1,0 +1,19 @@
+<name>ivd_animations</name>
+<description>/anim emote browser and /e keyword search over a large animation dictionary, with a configurable cancel key and an optional dedicated menu-open key alongside the radial menu and chat command entry points.</description>
+<creator>IVDevs</creator>
+<version>1.0.0</version>
+<meta type="lua">
+	<script type="shared" src="config/sh_config.lua" />
+	<script type="client" src="data/animations_data.lua" />
+
+	<script type="client" src="client/sc_main.lua" />
+	<script type="client" src="client/sc_menu.lua" />
+
+	<file src="client/ui/animations.html" />
+	<file src="client/ui/animations.css" />
+	<file src="client/ui/animations.js" />
+	<file src="client/ui/animations_data.js" />
+
+	<export type="client" function="ToggleMenu" />
+	<export type="client" function="IsMenuOpen" />
+</meta>
