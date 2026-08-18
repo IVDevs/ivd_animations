@@ -1,6 +1,6 @@
 # ivd_animations
 
-An in-game emote/animation browser for IVDevs servers. Players can search and play from a large animation library via a searchable UI, a quick chat-command keyword search, or an entry point wired into [ivd_radialmenu](../ivd_radialmenu). Includes instant cancellation via command or keybind.
+An in-game emote/animation browser for HMP servers. Players can search and play from a large animation library via a searchable UI, a quick chat-command keyword search, or an entry point wired into [ivd_radialmenu](../ivd_radialmenu). Includes instant cancellation via command or keybind.
 
 ## Features
 
@@ -10,10 +10,6 @@ An in-game emote/animation browser for IVDevs servers. Players can search and pl
 - 307 animation dictionaries covering 706 individual clips, browsable by category or full-text search
 - Optional dedicated menu-open keybind, in addition to chat commands and the radial menu integration
 - Exports `ToggleMenu` / `IsMenuOpen` so other resources (e.g. `ivd_radialmenu`) can open/close the browser and check its state
-
-## Requirements
-
-- IVDevs framework runtime (`Game`, `Thread`, `Events`, `WebUI`, `Console`, `Chat` APIs)
 
 ## Installation
 
